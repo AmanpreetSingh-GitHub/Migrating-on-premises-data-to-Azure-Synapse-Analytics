@@ -28,23 +28,23 @@ In this article we will be migrating our on-premises SQL Data Warehouse to Dedic
 
 - Restore the backup locally
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/2.png' width="50%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/2.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/3.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/3.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/4.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/4.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/5.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/5.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/6.png' width="50%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/6.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
@@ -59,11 +59,11 @@ In this article we will be migrating our on-premises SQL Data Warehouse to Dedic
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/11.png' width="50%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/11.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/12.png' width="50%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/12.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
@@ -73,7 +73,7 @@ In this article we will be migrating our on-premises SQL Data Warehouse to Dedic
 
 - Register <i>Microsoft.Synapse</i> provider for your subscription
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/24.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/24.png' width="80%" style='border:1px solid darkgrey'>
 
 <br />
 
@@ -134,33 +134,33 @@ from on-premises <i>AdevntureWorksDW2019</i> data warehouse
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/14.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/14.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/15.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/15.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Select only <i>Tables</i> for generting scripts  
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/16.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/16.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/17.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/17.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/18.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/18.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/19.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/19.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/20.png' width="70%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/20.png' width="40%" style='border:1px solid darkgrey'>
 
 <br />
 
@@ -230,27 +230,27 @@ We will use Azure Synapse Analytics <i>Integrate</i> hub to create integration p
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/42.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/42.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Provide a name for your integration runtime
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/43.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/43.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- Use <i>Option 1: Express Setup</i> to download and install integration runtime on your Windows machine
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/44.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/44.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/45.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/45.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/46.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/46.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
@@ -310,11 +310,11 @@ We will use Azure Synapse Analytics <i>Integrate</i> hub to create integration p
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/55.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/55.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/56.png' width="80%" style='border:1px solid darkgrey'>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src='Images/56.png' width="50%" style='border:1px solid darkgrey'>
 
 <br />
 
